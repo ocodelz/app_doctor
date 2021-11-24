@@ -1,0 +1,18 @@
+{
+	"name": "RichAlert",
+	"id": "Aimer-RichAlert",
+	"version": "0.1.3",
+	"description": "来电状态插件",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"ios": {
+			"plugins": [{
+				"type": "module",
+				"name": "Aimer-RichAlert",
+				"class": "DCRichAlertModule"
+			}],
+			"integrateType": "library",
+			"deploymentTarget": "10.0"
+		}
+	}
+}

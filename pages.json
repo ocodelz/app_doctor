@@ -1,0 +1,230 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/changePassword/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabbar/msgCenter/msgCenter",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/tabbar/pregnancyKnowledge/pregnancyKnowledge",
+			"style": {
+				"navigationBarTitleText": "孕期知识"
+			}
+		},
+		{
+			"path": "pages/tabbar/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/fetalHeartRateMonitoring/fetalHeartRateMonitoring",
+			"style": {
+				"navigationBarTitleText": "胎心监护记录"
+			}
+		},
+		{
+			"path": "pages/fetalHeartRate/fetalHeartRate",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/monitoringRecords/monitoringRecords",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/userAgreement/userAgreement",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/bloodPressure/bloodPressure",
+			"style": {
+				"navigationBarTitleText": "血压测量"
+			}
+		},
+		{
+			"path": "pages/bloodSugar/bloodSugar",
+			"style": {
+				"navigationBarTitleText": "血糖测量"
+			}
+		},
+		{
+			"path": "pages/update/index",
+			"style": {
+				"navigationBarTitleText": "版本升级"
+			}
+		},
+		{
+			"path": "pages/manipulationMenu/manipulationMenu",
+			"style": {
+				"backgroundColor": "transparent", // 防止ios不透明   
+				"navigationBarTitleText": "产后随访管理",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/postpartumOrPostoperativeQuestionnaireSurvey/postpartumOrPostoperativeQuestionnaireSurvey",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/followUpQuestionnaireInquiry/followUpQuestionnaireInquiry",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "随访日记管理",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"color": "#fff",
+							"fontSize": "24rpx",
+							"text": "筛选"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/notFillingInQuestionnaire/notFillingInQuestionnaire",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "日记未上报管理",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"color": "#fff",
+							"fontSize": "24rpx",
+							"text": "筛选"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/fuZhenDaoZhenLv/fuZhenDaoZhenLv",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "复诊到诊率",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"color": "#fff",
+							"fontSize": "24rpx",
+							"text": "筛选"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/fuZhenWeiDaoZhuiFangTongJi/fuZhenWeiDaoZhuiFangTongJi",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "复诊未到追访统计",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"color": "#fff",
+							"fontSize": "24rpx",
+							"text": "筛选"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/followUpQuestionnaireInquiryDetail/followUpQuestionnaireInquiryDetail",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "日记列表"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "uni-app",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#fc979f",
+		"navigationBarTextStyle": "white",
+		"app-plus": {
+			"bounce": "none"
+		}
+	},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#fc979f",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页",
+				"iconPath": "static/image/tabbar/home.png",
+				"selectedIconPath": "static/image/tabbar/home_active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/msgCenter/msgCenter",
+				"text": "消息中心",
+				"iconPath": "static/image/tabbar/msg.png",
+				"selectedIconPath": "/static/image/tabbar/msg_active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/pregnancyKnowledge/pregnancyKnowledge",
+				"text": "孕期知识",
+				"iconPath": "static/image/tabbar/clown.png",
+				"selectedIconPath": "static/image/tabbar/clown_active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/user/user",
+				"text": "我的",
+				"iconPath": "static/image/tabbar/wode.png",
+				"selectedIconPath": "static/image/tabbar/wode_active.png"
+			}
+		],
+		"midButton": {
+			"width": "80px",
+			"height": "45px",
+			"iconPath": "static/image/tabbar/add.png",
+			"iconWidth": "24px",
+			"text": "产后健康管理"
+		}
+	}
+}
